@@ -42,7 +42,7 @@ However, if that does not work, you must use the **its-pointless** repo as expla
 
 ### Installig SciPy
 
-This package I couldn't install using pip. I had to use the **ts-pointless** repo. I followed the instructions on [this link](https://wiki.termux.com/wiki/Installing_Scipy_The_Easy_Way). Then, using the command:
+This package I couldn't install using pip. I had to use the **its-pointless** repo. I followed the instructions on [this link](https://wiki.termux.com/wiki/Installing_Scipy_The_Easy_Way). Then, using the command:
 
 ```
 pip list
