@@ -17,10 +17,12 @@ python script.py
 There are some simple examples on introducing python which are too easy to document. But there are some tips I might take into account:
 
 * Declaration of variables do not require specifying type.
-* I can get variable type using ```type()```. 
+* I can get variable type using ```type()```.
+* User entry can be achieved using ```input()```. But input is a string.
 * Comments are introduced using '#'.
 * Add packages using ```import pck_name as abbrev```
 * Basic mathematical functions can be used with **math package**.
+* Exponentiation is supported by ```**``` operator.
 
 ### Using functions in Python
 
@@ -31,7 +33,46 @@ def my_func(arg1,arg2):
     # Operations on arguments
     return(output1,output2)
 ```
-An example of this kind of sintax is the file [**PyBasics.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyBasics.py).
+An example of this kind of sintax is the file [**PyBasics.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyBasics.py). Python can return an arbitary number of outputs from an arbitrary number of inputs. The operations may range from concatenating strings and print them, or perform complicated mathematical operations.
+
+### Conditionals and loops
+
+If statements in python have this sintax:
+
+```python
+if cond:
+   # do something
+else:
+   # do other thing
+```
+
+There can be nested conditionals. Cahined conditionalas have the sintax:
+
+```python
+if cond1:
+   # do action 1
+elif cond2:
+   # do action 2
+else:
+   # do default action
+```
+
+It is very important to know that python supports recursive functions. In fact, I plan to write a script that implements bisection recursively. Concerning the loops, python seems to have definite papers for the common C++ while and for. The **while** sintax:
+
+```python
+while cond:
+   # do same stuff
+```
+
+Is used for reapeating a determined action. Whereas de **for** sintax:
+
+```python
+for counter in array_of_things
+    # do something with array elements
+```
+
+Is more suitable for iteration over array elements. Those apparent functions are not inherent to python language, but it looks to me as if that's the case. Both loop types can be stopped by using ```break```.
+
 
 ## Multidimensional Arrays
 
