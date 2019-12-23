@@ -28,12 +28,16 @@ Python supports user defined functions, you just need to use the sintax:
 
 ```python
 def my_func(arg1,arg2):
-    # Operatios on arguments
-    return output
+    # Operations on arguments
+    return(output1,output2)
 ```
+An example of this kind of sintax is the file **PyBasics.py**.
 
 ## Multidimensional Arrays
 
 Arrays are used whenever you have a lot of data over which you expect to perform the same operation. They make this operations far easier. Python being an **interpreted language** implies that **vectorized computations** are far more efficient than element to element computations.
 
 
+## Emacs Notes
+
+I have learned how to edit several files in emacs. I have to use the combination ```C-x C-f``` to open a new buffer, and select the file (I must remember de route). Then, I switch between buffers using ```C-x b``` and selecting the file name. This might prove usefull.
