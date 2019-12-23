@@ -4,7 +4,7 @@
 
 After everything is installed, I guess, I hope to test some of NumPy and SciPy functionalities in my smartphone. I hope to learn some of the python philosophy and compare it to **MATLAB**. I've already installed MATLAB Mobile on my phone and hope to compare it to python.
 
-**NOTE:** Since I also intend to improve my MATLAB programming skills, for I think python and MATLAB might by similar in some sense, I use **MATLAB: A Practical INtroduction To Programming and Problem Solving**, from Stormy Attaway, to learn MATLAB too.
+**NOTE:** Since I also intend to improve my MATLAB programming skills, for I think python and MATLAB might by similar in some sense, I use **MATLAB: A Practical Introduction To Programming and Problem Solving**, from Stormy Attaway, to learn MATLAB too.
 
 ## Python nature
 
@@ -31,7 +31,7 @@ def my_func(arg1,arg2):
     # Operations on arguments
     return(output1,output2)
 ```
-An example of this kind of sintax is the file **PyBasics.py**.
+An example of this kind of sintax is the file [**PyBasics.py**](~/PyLearning/codes/PyBasics.py).
 
 ## Multidimensional Arrays
 
