@@ -31,7 +31,7 @@ def my_func(arg1,arg2):
     # Operations on arguments
     return(output1,output2)
 ```
-An example of this kind of sintax is the file [**PyBasics.py**](~/PyLearning/codes/PyBasics.py).
+An example of this kind of sintax is the file [**PyBasics.py**](PyBasics.py).
 
 ## Multidimensional Arrays
 
