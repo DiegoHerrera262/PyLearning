@@ -99,7 +99,7 @@ for element in my_list:
 * SLices of a list can be copied using ```list[inf_index:sup_index]```.
 * ELements of lists can be deleted using ```del()``` functions. More generally, *list elements can be modified*.
 
-**IMP:** When used as arguments of functions, lists are passed by reference. That means that the functions actually modifies the list passed as argument, if the function is required to do so. The file [**PyBasics.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyBasics.py) contains an implementation of Simpson's rule for integrating a function.
+**IMP:** When used as arguments of functions, lists are passed by reference. That means that the functions actually modifies the list passed as argument, if the function is required to do so. The file [**PyLists.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyLists.py) contains an implementation of Simpson's rule for integrating a function.
 
 **Tuples** are like immutable lists. A tuple can be created using the sintax:
 
