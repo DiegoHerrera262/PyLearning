@@ -45,7 +45,7 @@ else:
    # do other thing
 ```
 
-There can be nested conditionals. Chained conditionalas have the sintax:
+There can be nested conditionals. Chained conditionals have the sintax:
 
 ```python
 if cond1:
@@ -91,7 +91,7 @@ Lists have the following functionalities:
 * Iteration over list elements can be performed using a for loop easilly:
 
 ```python
-for element in list:
+for element in my_list:
     # do something on elements
 ```
 
@@ -99,7 +99,7 @@ for element in list:
 * SLices of a list can be copied using ```list[inf_index:sup_index]```.
 * ELements of lists can be deleted using ```del()``` functions. More generally, *list elements can be modified*.
 
-**IMP:** When used as arguments of functions, lists are passed by reference. That means that the functions actually modifies the list passed as argument, if the function is required to do so.
+**IMP:** When used as arguments of functions, lists are passed by reference. That means that the functions actually modifies the list passed as argument, if the function is required to do so. The file [**PyBasics.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyBasics.py) contains an implementation of Simpson's rule for integrating a function.
 
 **Tuples** are like immutable lists. A tuple can be created using the sintax:
 
