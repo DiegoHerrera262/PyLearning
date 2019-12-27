@@ -11,7 +11,7 @@ ax.plot(t,s)
 
 ax.set(xlabel="time (s)", ylabel="voltage (mV)",
        title="Basic Plot with Matplotlib")
-ax.grid
+ax.grid()
 
 fig.savefig("test.png")
 plt.show()
