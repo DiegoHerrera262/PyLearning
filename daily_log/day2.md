@@ -1,6 +1,6 @@
 # Day 2: Learning Python Basics
 
-**Date:** 23-12-19 ; 24-12-19
+**Date:** 23-12-19 ; 24-12-19 ; 27-12-19
 
 After everything is installed, I guess, I hope to test some of NumPy and SciPy functionalities in my smartphone. I hope to learn some of the python philosophy and compare it to **MATLAB**. I've already installed MATLAB Mobile on my phone and hope to compare it to python.
 
@@ -78,7 +78,7 @@ Is more suitable for iteration over array elements. Those apparent functions are
 
 ### Lists, Tuples and Dictionaries
 
-Basically, a **list** is an ordered set of elements that can be of very different type. You can even create nested lists (i.e. lists of lists). NUmerical lists can be created using ```brange(inf_lim, sup_lim)``` to create a list that ranges from inf_lim to sup_lim, step one by default.
+Basically, a **list** is an ordered set of elements that can be of very different type. You can even create nested lists (i.e. lists of lists). Numerical lists can be created using ```brange(inf_lim, sup_lim)``` to create a list that ranges from inf_lim to sup_lim, step one by default.
 
 Lists are created using the sintax:
 
@@ -112,6 +112,34 @@ Actually, parentheses are not necessary. Selecting slices can be done as selecti
 ## Multidimensional Arrays
 
 Arrays are used whenever you have a lot of data over which you expect to perform the same operation. They make this operations far easier. Python being an **interpreted language** implies that **vectorized computations** are far more efficient than element to element computations.
+
+## Creating Plots
+
+I tested the functionality of the **Matplotlib** bys running a simple script. This was a sample code I found on the documentation of the package. This corresponds to the file [**PyPlots.py**](https://github.com/DiegoHerrera262/PyLearning/blob/master/codes/PyPlots.py). Basically, the way Matplotlib creates a plot pretty much like MATLAB. The object of Matplotlib in charge of 2D plots is **pyplot**. You must create an object that is a plot using command:
+
+```python
+fig = plt.subplots()
+```
+
+You must plot two NumPy arrays. This can be done using yhe command:
+
+```python
+fig.set(xlabel="-", ylabel="-", title="-")
+```
+
+In termux, setting an X server to visualize your plot is a nightmare. **Believe me**. So, you shuld save the plot in a file. After creating another figure object, as above, you should use:
+
+```python
+fig.savefig("my_fig.png")
+```
+
+After that, to actually create the plot, you should use the command:
+
+```python
+fig.show()
+```
+
+To see the plot, use ```termux-open my_fig.png```.
 
 
 ## Emacs Notes
